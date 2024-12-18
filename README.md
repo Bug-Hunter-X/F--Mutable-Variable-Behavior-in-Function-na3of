@@ -1,0 +1,1 @@
+This example demonstrates an uncommon bug related to mutable variables in F#. The function `add` modifies its input parameters `x` and `y`, but the changes are not reflected in the main program flow as expected due to the way F# handles mutable variables within function scopes.  The solution illustrates how to better handle mutable variables to achieve the intended behavior.
